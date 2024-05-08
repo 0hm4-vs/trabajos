@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    text-decoration: underline;
+    margin: 10px;
+    border: 1px solid green;
+}
+#contenedor{
+    width: 80%;
+    margin: 25px auto;
+    border: 1px solid black;
+}
+#cabecera{
+    display: flex;
+    height: 100px;
+    padding: 5px;
+}
+#cabecera img{
+    height: 100%;
+}
+#menu{
+    text-align: center;
+    margin: 10px;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: right;
+    margin: 5px;
+}
+#menu a{
+    margin: 1px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#menu a:hover{
+    background-color: dimgrey;
+    color: white;
+}
+#contenido{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+#contenido img{
+    padding: 5px;
+    height: 75%;
+    width: 100px;
+    float: left;
+}
+#contenido p{
+    font-family: sans-serif;
+}
+#z{
+    padding: 5px;
+    margin: 5px;
+}
+#z h1{
+    text-align: center;
+}
+#z p{
+    padding: 5px;
+}
+#y{
+    padding: 5px;
+    margin: 5px;
+}
+#y h1{
+    text-align: center;
+}
+#y p{
+    padding: 5px;
+}
+.articulo{
+    margin: 10px;
+}
+#HTML5{
+    background-color: orange;
+}
+#CSS3{
+    background-color: blue;
+}
+#JS6{
+    background-color: yellow;
+}
+#PHP{
+    background-color: darkslateblue;
+}
+#pie{
+    background-color: antiquewhite;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+#footer{
+    margin-left: 50px;
+}
+#pie img{
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+}
+#pie p{
+    background-color: aqua;
+}
